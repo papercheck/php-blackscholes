@@ -18,7 +18,7 @@ $interest = 0.02;
 $timeToMaturity = 0.17;
 $underlyingPrice = 460;
 $volatility = 0.58;
-$bs = new \shadiakiki1986\BlackScholes(
+$bs = new BlackScholes(
   $underlyingPrice,
   $strike,
   $timeToMaturity,
@@ -32,7 +32,7 @@ will display `40.1047` (note that they have a mistake in their d1 function)
 
 Alternatively
 ```php
-$call = new \shadiakiki1986\BlackScholesStatic::calculate(
+$call = BlackScholesStatic::calculate(
   'c',
   $underlyingPrice,
   $strike,
@@ -42,4 +42,3 @@ $call = new \shadiakiki1986\BlackScholesStatic::calculate(
 );
 var_dump($call);
 ```
-

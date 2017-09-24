@@ -13,15 +13,10 @@
     "autoload": {
         "psr-4": {
             "BlackScholes\\": "src/",
-            "BlackScholesStatic\\": "src/"
+            "BlackScholesStatic\\": "src/",
+            "": "src/"
         }
     },
-    "autoload-dev": {
-             "psr-4": {
-                "BlackScholes\\test\\": "test/",
-                "BlackScholesStatic\\test\\": "test/"
-              }
-         },
     "scripts": {
         "test": [
             "parallel-lint . --exclude vendor",

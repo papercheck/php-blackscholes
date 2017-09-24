@@ -1,5 +1,4 @@
 <?php
-require_once(__dir__ . '../../src/BlackScholes.php');
 
 class BlackScholesTest extends \PHPUnit_Framework_TestCase
 {
