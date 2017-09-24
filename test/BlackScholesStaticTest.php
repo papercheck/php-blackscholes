@@ -1,6 +1,5 @@
 <?php
-
-namespace shadiakiki1986;
+require_once(__dir__ . '../../src/BlackScholesStatic.php');
 
 class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
 {
@@ -33,7 +32,7 @@ class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
 
@@ -60,7 +59,7 @@ class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
 
@@ -75,7 +74,7 @@ class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
 #      $this->assertEquals(0.9252,round($bs->Nd1(),4));
@@ -100,7 +99,7 @@ class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
 

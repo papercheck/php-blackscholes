@@ -1,6 +1,6 @@
 <?php
 
-namespace shadiakiki1986;
+// namespace BlackScholesStatic;
 
 // Based on http://cseweb.ucsd.edu/~goguen/courses/130/SayBlackScholes.html
 // https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#Black.E2.80.93Scholes_formula
@@ -17,7 +17,7 @@ class BlackScholesStatic {
     $k = 1 / ( 1 + 0.2316419 * $L);
     $p = 1 - 1 /  pow(2 * $Pi, 0.5) * exp( -pow($L, 2) / 2 ) * ($a1 * $k + $a2 * pow($k, 2)
        + $a3 * pow($k, 3) + $a4 * pow($k, 4) + $a5 * pow($k, 5) );
-    if ($x >= 0) { 
+    if ($x >= 0) {
       return $p;
     } else {
       return 1-$p;

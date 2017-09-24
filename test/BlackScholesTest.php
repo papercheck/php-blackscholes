@@ -1,6 +1,5 @@
 <?php
-
-namespace shadiakiki1986;
+require_once(__dir__ . '../../src/BlackScholes.php');
 
 class BlackScholesTest extends \PHPUnit_Framework_TestCase
 {
@@ -47,7 +46,7 @@ class BlackScholesTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
       return $bs;
@@ -92,7 +91,7 @@ class BlackScholesTest extends \PHPUnit_Framework_TestCase
         $underlyingPrice,
         $strike,
         $timeToMaturity,
-        $interest, 
+        $interest,
         $volatility
       );
 

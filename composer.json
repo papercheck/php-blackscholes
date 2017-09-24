@@ -11,12 +11,17 @@
         }
     ],
     "autoload": {
-        "files": [
-            "src/BlackScholes.php",
-            "src/BlackScholesStatic.php"
-            ],
-            "psr-0": { "": "lib/" }
+        "psr-4": {
+            "BlackScholes\\": "src/",
+            "BlackScholesStatic\\": "src/"
+        }
     },
+    "autoload-dev": {
+             "psr-4": {
+                "BlackScholes\\test\\": "test/",
+                "BlackScholesStatic\\test\\": "test/"
+              }
+         },
     "scripts": {
         "test": [
             "parallel-lint . --exclude vendor",
