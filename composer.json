@@ -11,8 +11,12 @@
         }
     ],
     "autoload": {
+        "classmap": [
+            "src"
+        ],
+
         "psr-4": {
-            "shadiakiki1986\\": "src/"
+            "shadiakiki1986\\": "src"
         }
     },
     "scripts": {
