@@ -1,6 +1,6 @@
 <?php
 
-namespace shadiakiki1986;
+namespace shadiakiki1986\BlackScholes;
 
 // Based on http://cseweb.ucsd.edu/~goguen/courses/130/SayBlackScholes.html
 // https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#Black.E2.80.93Scholes_formula

@@ -16,7 +16,7 @@
         ],
 
         "psr-4": {
-            "shadiakiki1986\\": "src"
+            "shadiakiki1986\\BlackScholes\\": "src"
         }
     },
     "scripts": {

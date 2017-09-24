@@ -1,6 +1,6 @@
 <?php
 
-use shadiakiki1986\BlackScholes;
+use shadiakiki1986\BlackScholes\BlackScholes;
 
 class BlackScholesTest extends \PHPUnit_Framework_TestCase
 {

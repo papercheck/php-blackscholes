@@ -1,6 +1,6 @@
 <?php
 
-use shadiakiki1986\BlackScholesStatic;
+use shadiakiki1986\BlackScholes\BlackScholesStatic;
 
 class BlackScholesStaticTest extends \PHPUnit_Framework_TestCase
 {
