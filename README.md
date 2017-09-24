@@ -13,6 +13,9 @@ Call option price example from [quora](https://invento.quora.com/Advanced-Black-
 ```php
 require_once 'vendor/autoload.php';
 
+use shadiakiki1986\BlackScholes;
+use shadiakiki1986\BlackScholesStatic;
+
 $strike = 470;
 $interest = 0.02;
 $timeToMaturity = 0.17;

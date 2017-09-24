@@ -1,5 +1,7 @@
 <?php
 
+namespace shadiakiki1986;
+
 // http://cseweb.ucsd.edu/~goguen/courses/130/SayBlackScholes.html
 // https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#Black.E2.80.93Scholes_formula
 class BlackScholes {

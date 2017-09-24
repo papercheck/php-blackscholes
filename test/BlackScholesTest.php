@@ -1,5 +1,7 @@
 <?php
 
+use shadiakiki1986\BlackScholes;
+
 class BlackScholesTest extends \PHPUnit_Framework_TestCase
 {
     // test against values from table: http://wps.aw.com/wps/media/objects/3853/3945845/ch15/table1.html

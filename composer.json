@@ -12,9 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BlackScholes\\": "src/",
-            "BlackScholesStatic\\": "src/",
-            "": "src/"
+            "shadiakiki1986\\": "src/"
         }
     },
     "scripts": {
